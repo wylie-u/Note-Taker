@@ -10,7 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "heroku": "^7.51.0",
+    "local": "^0.3.3",
     "shortid": "^2.2.16",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "web": "0.0.2"
   }
 }
