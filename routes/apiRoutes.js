@@ -1,7 +1,6 @@
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-//populates a unique id
-// console.log(shortid.generate());
+
 
 
 module.exports = app => {
@@ -27,7 +26,7 @@ app.post('/api/notes', (req, res) => {
     // JSON parse converts string into JSON objects
     note = JSON.parse(data);
     
-    // pushes the stored information from the req.body object into the note variable
+    // pushes the stored information from the req.body object (note) into the note variable
     note.push(req.body);
     // then writefile and return the response as json with the note (data)
     fs.writeFile("./db/db.json",JSON.stringify(note),err => {
@@ -39,7 +38,5 @@ app.post('/api/notes', (req, res) => {
 
 })
 
-// app.get('/api/notes/notes', (req, res) => {
 
-// })
 }
