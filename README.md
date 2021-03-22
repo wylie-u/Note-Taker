@@ -18,7 +18,7 @@ The app is deployed through Heroku.
 
 
 
-![Site Photo](/dist/Document.png)
+![Site Photo](/public/assets/Note-Taker.png)
 
 ## User Story
 <pre><code>AS A small business owner
