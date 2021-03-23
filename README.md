@@ -4,13 +4,14 @@
 
 This project creates an application used to write and save notes using express.js on the back end to save and retrieve data. HTTP request methods get, post are utilized to retrieve notes and post new notes. 
 
-The app is deployed through Heroku.
+The app is deployed through Heroku. **[Check out the site here!](https://note-taker-du-21.herokuapp.com/)**
 
 
 
 ## Table of Contents
 
  * [User Story](#User-Story)
+ * [Building Tools](#Building-Tools) 
  * [Installation](#Installation) 
  * [Credits](#Credits)
 
